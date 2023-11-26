@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Доставка</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header class="header">
+            <div class="header-burger">
+                <div class="menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="header__nav menu">
+            <ul>
+                <li class="header__nav-item"><a href="index.html">Про мене</a></li>
+                <li class="header__nav-item"><a href="#">Доставка</a></li>
+                <li class="header__nav-item"><a href="shops.html">Магазини</a> </li>
+                <li class="header__nav-item"><a href="order.html">Замовлення</a></li>
+                <li class="header__nav-item"><a href="help.html">Запитання</a></li>
+            </ul>
+        </div>
+        </header>
+        <div>
+            <section class="shipping">
+                <div class="shipping__inner">
+                    <div class="shipping__inner-title">Вартість та терміни доставки з інтернет-магазинів в Україну</div>
+                    <div>
+                    <div class="shipping__inner-europe">
+                        <ul class="shipping__item item-ship">
+                            <li class="shipping__item-title"><img src="img/united-kingdom.png" alt="" width="50"><span class="shipping-title-text">Із Англії</span></li>
+                            <li class="shipping__item-img"><img src="img/45880.png" alt="" width="80"></li>
+                            <li class="shipping__item-inner">до 4х тижнів</li>
+                            <li class="shipping__item-inner"> <span class="pound">£ 0,45</span> /100гр  <span class="pound-grn"></span></li>
+                        </ul>
+                        <ul class="shipping__item item-ship">
+                            <li class="shipping__item-title"><img src="img/germany.png" alt="" width="50"><span class="shipping-title-text">Із Іспанії та Німеччини</span><img src="img/spain.png" alt="" width="50"></li>
+                            <li class="shipping__item-img"><img src="img/45880.png" alt="" width="80"></li>
+                            <li class="shipping__item-inner">до 4х тижнів</li>
+                            <li class="shipping__item-inner "> €0.45 /100гр <span class="euro-grn"></span></li>
+                        </ul>
+                        <ul class="shipping__item item-ship">
+                            <li class="shipping__item-title"><img src="img/poland.png" alt="" width="50"><span class="shipping-title-text">Із Польщі</span></li>
+                            <li class="shipping__item-img"><img src="img/45880.png" alt="" width="80"></li>
+                            <li class="shipping__item-inner">до 3х тижнів</li>
+                            <li class="shipping__item-inner "> 1.15 зл /100гр <span class="zlot-grn"></span></li>
+                        </ul>
+                    </div>
+                    <div class="shipping__inner-usa">
+                        <div class="shipping__usa-title"><img src="img/united-states.png" alt="" width="50"><span class="shipping-title-text">Із Америки</span></div>
+                        <div class="shipping__usa">
+                            <div class="shipping__usa-item item-ship">
+                                <div class="shipping__item-img"><img src="img/88732.png" alt="" width="80"></div>
+                                <ul class="shipping__item-usa">
+                                    <li class="shipping__item-inner">6 тижнів</li>
+                                    <li class="shipping__item-inner">$0,8 /100гр </li>
+                                    <li class="shipping__item-inner"><span class="sea-grn"></span></li>
+                                </ul>
+                            </div>                            
+                        <div class="shipping__usa-item item-ship">
+                            <div class="shipping__item-img"><img src="img/1247300.png" alt="" width="80"></div>
+                            <ul class="shipping__item-usa">
+                                <li class="shipping__item-inner">3-4 тижнів</li>
+                                <li class="shipping__item-inner">$1,10 /100гр <span class="air-grn"></span></li>
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ukr">
+                <div class="ukr__inner">
+                    <div class="shipping__inner-title">Доставка по Україні</div>
+                    <div class="ukr__info">
+                        <div class="ukr__info-np">
+                            <a href="https://novaposhta.ua/basic_tariffs"><img src="img/Nova_Poshta.png" alt="" width="200"></a>
+                            <p class="ukr__np-text">Кожні 2 дні</p>
+                        </div>
+                        <div class="ukr__info-up">
+                            <a href="https://www.ukrposhta.ua/ru/taryfy-ukrposhta-standart"><img src="img/Ukrposhta.png" alt=""></a>
+                            <p class="ukr__up-text">1 раз/тиждень</p>
+                        </div> 
+                        <div class="ukr__info-meest">
+                            <a href="https://meest.com/uploads/files/64647e8e6313d4f3f58f4706c174d926.pdf"><img src="img/Meest.png" alt="" width="170"></a>
+                            <p class="ukr__meest-text">2 рази/тиждень</p>
+                        </div>                                      
+                    </div>
+                    <div class="ukr__warning">
+                        <img class="ukr__warning-img" src="img/warning.svg" alt="" width="30">
+                        <ul>
+                            <li>Доставка по Україні за рахунок отримувача</li>
+                            <li>Для відправлення вашої посилки треба записатись у  <a href="viber://chat?number=%2B380679751016"> <img src="img/viber.svg" alt="" width="30"></a>  або <a href="https://t.me/DianyUS"> <img src="img/telegram.svg" alt="" width="30"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section class="poltava">
+                <div class="poltava__inner">
+                    <div class="shipping__inner-title">Доставка по Полтаві</div>
+                    <div class="poltava__info">
+                        <img class="poltava__info-img" src="img/paket.svg" alt="" width="50">
+                        <div>Якщо ви знаходитесь в Полтаві то товар можливо забрати із м-на Огнівка (субота та неділя)</div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="footer">
+                <div class="footer__inner">
+                    <div class="footer__contacts"><span> Залишились питання? Запитай </span>
+                        <a href="viber://chat?number=%2B380679751016"> <img src="img/viber.svg" alt="" width="30"></a>  
+                        <a href="https://t.me/DianyUS"> <img src="img/telegram.svg" alt="" width="35"></a>
+                        <a href="https://www.instagram.com/buyer.diana/?igshid=NDk5N2NIZjQ%3D"> <img src="img/instagram.svg" alt="" width="30"></a>
+                    </div>
+                </div>
+            </section >
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+    <script>
+        let pound = 0.45,
+            euro = 0.45,
+            zlot = 1.15,
+            sea = 0.8,
+            air = 1.10,
+            poundKurs = 47.00,
+            euroKurs = 40.65,
+            zlotKurs = 9.30,
+            dollKurs = 37.50,
+            poundGrn = document.querySelector('.pound-grn'),
+            euroGrn = document.querySelector('.euro-grn');
+            zlotGrn = document.querySelector('.zlot-grn');
+            seaGrn = document.querySelector('.sea-grn');
+            airGrn = document.querySelector('.air-grn');
+            
+
+        function getKurs () {             
+
+            poundGrn.innerHTML = `(${Math.round(pound * poundKurs)} грн/100гр)`;
+            euroGrn.innerHTML = ` (${Math.round(euro * euroKurs)} грн/100гр)`;
+            zlotGrn.innerHTML = ` (${Math.round(zlot * zlotKurs)} грн/100гр)`;
+            seaGrn.innerHTML = ` (${Math.round(sea * dollKurs)} грн/100гр)`;
+            airGrn.innerHTML = ` (${Math.round(air * dollKurs)} грн/100гр)`;
+        }
+        getKurs();
+
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
